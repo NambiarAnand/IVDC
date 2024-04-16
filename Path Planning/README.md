@@ -16,3 +16,6 @@ Looking into the consideration of being computationally efficient and presence o
 Lifelong Planning A* (LPA*) is also another viable algorithm which can be used in rapidly changing environments. It excels in re-planning the route, with minimal computational resource use for replanning the route. For UAVs in a smaller environment LPA* is a better algorithm than RRT, but in large environments some initial exploration is required by both the algorithm and RRT is better at it due to its random sampling approach. But a better optimal solution and efficient re-planning trades-off for this, and LPA* become a better choice.
 
 ## Question 3:
+The file has been attached, PFA the results:  
+![Figure 1](Figure_1.png)
+![Figure 2](Figure_2.png)
