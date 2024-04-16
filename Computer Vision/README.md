@@ -12,3 +12,18 @@ Kernel size is another key factor. Smaller kernels excel at capturing low-level 
 
 ## Question 4
 Real-time computer vision filters require a balancing act between speed, accuracy, and adaptability. Complex filters may be accurate but slow down processing. Simple filters run fast but might lack precision. Ideally, filters should adapt to lighting changes and object motion, but complex adaptive filters can be slow. The key is to choose the right filter like mean filter for noise reduction and optimize its parameters like kernel size, stride and padding for the specific task. In some cases, hardware acceleration can handle more complex filters while maintaining real-time performance. Overall, thoughtful filter design is crucial for robust computer vision applications in dynamic environments.
+
+## Question 5
+Since the image is blurred/noisy, first we would try to denoise the image using filters like the Gaussian filter, because it is good at preserving the edges and denoises the image very well. Then to reduce the intensity of horizontal lines, directional filters like Sobel filters can be used when oriented in vertical direction, as it increases the intensity of edges in the vertical direction, significantly reducing the intensity of horizontal power lines. 
+Another method is morphological filtering, where it shrinks and dilates the image. Apply it first to horizontal features, and then dilate the image, so that most of the features are restored but the powerlines.
+
+## Question 6, 7
+I have used the pretrained models available in keras.applications and have used the XCeption Model.
+
+Other models which i have tried include:
+>Resnet50 (good accuracy, high inference time)
+>Inception (average accuracy, high inference time)
+>MobileNet (lower accuracy, low inference time)
+>EfficientNetB6 (high accuray, high inference time)
+
+XCeption Model gives very high accuracy when compared to others (99.95%) in test data, with average inference time of about 30 minutes on CPU. I have trained the files locally. Jupyter Notebook has been attached
