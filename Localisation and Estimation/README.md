@@ -1,4 +1,4 @@
-# Estimation anf Localisation
+# Estimation and Localisation
 ## Question 1:
 A point cloud is a collection of data points in space, representing 3D geometry about an environment. Each point cloud data consists of 3 values representing spatial coordinates. It can also have additional attributes like intensity and color. This data needs to be preprocessed, to reduce noise (due to the environment, here the tree might be having some random motions of leaves, and weather conditions etc) and to remove outliers. Also coordinate transformation is necessary with respect to the sensor, because sometimes, the scanned data points will seem to drift in a particular direction. So many algorithms like graph-based estimation, EKF filter based, and iterative closest point algorithms are used.
 Lidar_Scan points can be processed to point cloud type data, using python libraries like open3d, which include built-in features to convert these points.
