@@ -20,5 +20,5 @@ Quaternions are a way to represent rotations in a 3D space, using a four dimensi
 Euler angles are a more intuitive way to represent the rotations in 3D space. Here the angles are described using the rotations done with respect to a particular axis of rotation (similar to pitch, yaw or roll). This mostly consists of just 3 components: φ(around z), θ(around new X), ψ(around new Y).
 
 ## Question 10:
-
+![Quaternions_Transformation](assets/file2.jpg)
 
