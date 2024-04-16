@@ -21,9 +21,9 @@ Another method is morphological filtering, where it shrinks and dilates the imag
 I have used the pretrained models available in keras.applications and have used the XCeption Model.
 
 Other models which i have tried include:
->Resnet50 (good accuracy, high inference time)
->Inception (average accuracy, high inference time)
->MobileNet (lower accuracy, low inference time)
->EfficientNetB6 (high accuray, high inference time)
+>Resnet50 (good accuracy, high inference time) <br>
+>Inception (average accuracy, high inference time) <br>
+>MobileNet (lower accuracy, low inference time) <br>
+>EfficientNetB6 (high accuray, high inference time)<br>
 
 XCeption Model gives very high accuracy when compared to others (99.95%) in test data, with average inference time of about 30 minutes on CPU. I have trained the files locally. Jupyter Notebook has been attached
