@@ -14,6 +14,9 @@ Rqt graph is a visual tool in ROS that shows how different parts (nodes) of your
 
 Messages are the information that is getting transferred from nodes via topics, services and actions.
 
+## Question 1, 3-8
+Couldnt solve because wasnt having experience in ROS1 and construct was too laggy. Nevertheless I am looking forward in having experience in both ROS1 and ROS2
+
 ## Question 9:
 Quaternions are a way to represent rotations in a 3D space, using a four dimensional number system to represent these. It consists of 4 real parts typically denoted by w,x,y and z, where w is the scalar part used to scale the rotation, while the x,y,z are the imaginary parts (vector) which defines the axis and angle of rotation. The magnitude of x,y,z [ √(x²+y²+z²) ] represents the amount of rotation, and a zero vector part (w≠0) represents no rotation.
 
